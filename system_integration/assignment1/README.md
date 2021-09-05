@@ -55,7 +55,6 @@ Applications built from microservices aim to be as decoupled and as cohesive as 
 - [martinfowler.com/articles/microservices.html](https://martinfowler.com/articles/microservices.html)
 - [martinfowler.com/bliki/DomainDrivenDesign.html](https://martinfowler.com/bliki/DomainDrivenDesign.html)
 - [confluent.io/blog/microservices-apache-kafka-domain-driven-design/](https://www.confluent.io/blog/microservices-apache-kafka-domain-driven-design/)
-- [confluent.io/blog/microservices-apache-kafka-domain-driven-design/](https://www.confluent.io/blog/microservices-apache-kafka-domain-driven-design/)
 - [simpleprogrammer.com/importance-domain-driven-design/](https://simpleprogrammer.com/importance-domain-driven-design/)
 - [medium.com/microtica/the-concept-of-domain-driven-design-explained](https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f)
 - [medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask](https://medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask-a85e7b74497a)
