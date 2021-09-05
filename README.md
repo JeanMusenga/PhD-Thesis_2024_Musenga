@@ -1,7 +1,7 @@
 # 2nd Semester individual assignments
-## System Integration
+### System Integration
 - [Assignment 1](#)
-## Large Systems Development
+### Large Systems Development
 - [Assignment 1](#)
-## Test
+### Test
 - [Assignment 1](#)
