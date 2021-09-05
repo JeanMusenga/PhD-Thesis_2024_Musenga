@@ -14,6 +14,8 @@
 
 #### When did it originate?
 - The name comes from a 2003 book by Eric Evans.  
+  - *Domain-Driven Design: Tackling Complexity in the Heart of Software
+by Eric Evans, 2003, Publisher: Addison-Wesley; ISBN: 0-321-12521-5*
 ![image](https://user-images.githubusercontent.com/35559774/132123871-5382f8a3-0a36-4c0c-9509-8220b2444de6.png)
 
 #### Which problems did it address?
