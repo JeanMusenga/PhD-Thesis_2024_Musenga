@@ -64,4 +64,4 @@ Applications built from microservices aim to be as decoupled and as cohesive as 
 - [Driven%20Design%20Quickly.pdf](https://matfrs2.github.io/RS2/predavanja/literatura/Avram%20A,%20Marinescu%20F.%20-%20Domain%20Driven%20Design%20Quickly.pdf)
 - [stackoverflow.com/questions/1222392/what-is-domain-driven-design](https://stackoverflow.com/questions/1222392/what-is-domain-driven-design-ddd/1222488#1222488)
 
-test
+
