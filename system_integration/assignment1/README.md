@@ -9,7 +9,7 @@
 
 #### What is DDD?
 - Domain Driven Design
-- DDD → an approach used to build a software model of a real-world system with a complex business domain by making a ubiquitous language and a conceptual description of the system. Software for a bank would have an ubiquitous language consisting of words like “customer”, “account”, “balance” etc. The domain model will be built in the domain context by using the ubiquitous language. 
+- DDD → an approach used to build a software model of a real-world system with a complex business domain by making a ubiquitous language and a conceptual description of the system. Software for a bank would have an ubiquitous language consisting of words like “customer”, “account”, “balance” etc. The domain model will be built in the domain context by using the ubiquitous language.
 ![image](https://user-images.githubusercontent.com/35559774/132123870-4d9d914d-a1e4-48c8-af9f-bd879fb7abc4.png)
 
 #### When did it originate?
@@ -23,7 +23,7 @@ by Eric Evans, 2003, Publisher: Addison-Wesley; ISBN: 0-321-12521-5*
 ![image](https://user-images.githubusercontent.com/35559774/132123873-a5aa3114-2dbf-4366-8a94-e40c919400a1.png)
 
 #### Which are the basic concepts and building blocks of a domain model?
-- The domain model exists within the domain context and includes boundaries, usage within  specific areas of the system, ideas, knowledge and goals. The model also contains rules and patterns that are relevant. 
+- The domain model exists within the domain context and includes boundaries, usage within  specific areas of the system, ideas, knowledge and goals. The model also contains rules and patterns that are relevant.
 
   - Value objects → a value that might have sub-values (time can have the sub-values hour, minute, second)
   - Entities → objects with an identity (customer object has its own identity)
@@ -44,7 +44,7 @@ by Eric Evans, 2003, Publisher: Addison-Wesley; ISBN: 0-321-12521-5*
 
 #### How does DDD relate to microservices architecture?
 > *“The term "Microservice Architecture" has sprung up over the last few years to describe a particular way of designing software applications as suites of independently deployable services. While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability, automated deployment, intelligence in the endpoints, and decentralized control of languages and data. [...]
-Applications built from microservices aim to be as decoupled and as cohesive as possible - they own their own domain logic and act more as filters in the classical Unix sense - receiving a request, applying logic as appropriate and producing a response.”* 
+Applications built from microservices aim to be as decoupled and as cohesive as possible - they own their own domain logic and act more as filters in the classical Unix sense - receiving a request, applying logic as appropriate and producing a response.”*
 
 [Martin Fowler](https://martinfowler.com/articles/microservices.html) 25 March 2014.
 
@@ -63,3 +63,5 @@ Applications built from microservices aim to be as decoupled and as cohesive as 
 - [lucidchart.com/blog/domain-driven-design-introduction](https://www.lucidchart.com/blog/domain-driven-design-introduction)
 - [Driven%20Design%20Quickly.pdf](https://matfrs2.github.io/RS2/predavanja/literatura/Avram%20A,%20Marinescu%20F.%20-%20Domain%20Driven%20Design%20Quickly.pdf)
 - [stackoverflow.com/questions/1222392/what-is-domain-driven-design](https://stackoverflow.com/questions/1222392/what-is-domain-driven-design-ddd/1222488#1222488)
+
+
