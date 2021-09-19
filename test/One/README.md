@@ -67,4 +67,4 @@ code.
 - **What surprised you?**
 	- Nothing really was surprising. We have done TDD before so this was not new, but it was nice to try it out again.
 - **Did TDD help you write some tests you wouldn’t otherwise have thought of?**
-	- I don't think so, no. I'm usually okay in regards to implementing test. In the event that I don't I don't see how TDD would help in that regard. 
+	- I don't think so, no. I'm usually okay in regards to implementing tests. In the event that I don't I don't see how TDD would help in that regard. 
