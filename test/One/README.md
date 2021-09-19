@@ -1,7 +1,6 @@
 # Test
 ### Assignment 1
 ##### By Camilla Jenny Valerius Staunstrup, 19. september 2021  
-  
 ![image](https://user-images.githubusercontent.com/35559774/132123870-4d9d914d-a1e4-48c8-af9f-bd879fb7abc4.png)
 ### Objective
 For each task, write your answers and findings in a README file together with any
@@ -19,7 +18,6 @@ reasons for the man not dying.
 - The shot hit the man and was fatal, but he was wearing protection (helmet/vest/other) 
 - The shot hit the man, was fatal, but he was revived at the hospital
 - The shot hit the man and was fatal, but the setting was artificial reality  
-  
 ![image](https://user-images.githubusercontent.com/35559774/132123870-4d9d914d-a1e4-48c8-af9f-bd879fb7abc4.png)
 ##### 1.2 ALIEN
 An alien meets you and it asks you to teach it how to brush its teeth. Assume that the
@@ -52,7 +50,6 @@ alien has teeth exactly like yours, and is as smart as you, but it needs a clear
 - Turn off the water faucet
 - Put the toothbrush body in the holder
 - Put the toothbrush head in the holder  
-  
 ![image](https://user-images.githubusercontent.com/35559774/132123870-4d9d914d-a1e4-48c8-af9f-bd879fb7abc4.png)
 
 #### 2 TWO KATAS
@@ -86,8 +83,7 @@ https://en.wikipedia.org/wiki/Roman_numerals#Standard_form.
 
 ##### Solution
 - [Arabic to Roman Converter Class](https://github.com/Castau/2nd_semester_individual_assignments/blob/main/test/One/src/main/java/ConvertRomanNumber.java)  
-- [Arabic to Roman Test Class](https://github.com/Castau/2nd_semester_individual_assignments/blob/main/test/One/src/test/java/RomanTest.java)  
-  
+- [Arabic to Roman Test Class](https://github.com/Castau/2nd_semester_individual_assignments/blob/main/test/One/src/test/java/RomanTest.java)   
 ![image](https://user-images.githubusercontent.com/35559774/132123870-4d9d914d-a1e4-48c8-af9f-bd879fb7abc4.png)
 
 #### 3 GIVE YOUR THOUGHTS ON TDD
