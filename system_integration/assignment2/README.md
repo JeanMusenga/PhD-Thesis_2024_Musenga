@@ -1,67 +1,95 @@
 # System Integration
-### Assignment 1 - Research: Domain Driven Design
-##### By Camilla Jenny Valerius Staunstrup, 5. september 2021
+### Assignment 2 - Reading Task 2: SOA
+##### By Camilla Jenny Valerius Staunstrup, 19. september 2021
 ![image](https://user-images.githubusercontent.com/35559774/132123887-a41b6807-c1a6-4b7d-abe9-c207e8117907.png)
 
 ### Objective:
-- Research the Internet and/or the recommended books and find the answers of the following questions:  
+- We are investigating various technologies and platforms for software integration. Your task is to research and describe the technology, called SOA (Service-Oriented Architecture). On up to two pages, give an answer to the following questions, in text and diagrams, as appropriate:    
 ![image](https://user-images.githubusercontent.com/35559774/132123869-db053cd7-cc77-400d-9597-33fd833683e0.png)
 
-#### What is DDD?
-- Domain Driven Design
-- DDD → an approach used to build a software model of a real-world system with a complex business domain by making a ubiquitous language and a conceptual description of the system. Software for a bank would have an ubiquitous language consisting of words like “customer”, “account”, “balance” etc. The domain model will be built in the domain context by using the ubiquitous language.
+#### What is SOA?
+- Service-oriented architecture (SOA)
+  - Service-orientation is a design paradigm that has a focus on the separation of different complexities in the software into services. 
+  - A service is a self contained part of the software with its own well defined responsibility.  
 ![image](https://user-images.githubusercontent.com/35559774/132123870-4d9d914d-a1e4-48c8-af9f-bd879fb7abc4.png)
 
-#### When did it originate?
-- The name comes from a 2003 book by Eric Evans.  
-  - *Domain-Driven Design: Tackling Complexity in the Heart of Software
-by Eric Evans, 2003, Publisher: Addison-Wesley; ISBN: 0-321-12521-5*
+#### Which are the main building blocks of SOA architecture? 
+- Service provider
+  - Creates a web service and decides which services to expose, their availability, security and possibly pricing. 
+- Service repository
+  - Collection of service providers available to any potential service consumer. Scope of the repository can be public or private. The focus of the repository can be industry specific or broad or some other main theme. 
+- Service consumer
+  - Locates the entries in the service repository collection and then binds to the service provider to invoke one of its web services.  
 ![image](https://user-images.githubusercontent.com/35559774/132123871-5382f8a3-0a36-4c0c-9509-8220b2444de6.png)
 
-#### Which problems did it address?
-- How to solve complexity in large systems is made easier with DDD.  
+#### What are the advantages and disadvantages of applying it in enterprise applications development? 
+**Advantages**
+- Reusability
+  - The self contained services can be used in other applications.
+- Maintainability
+  - Services don’t influence each other and because of that, updating, maintaining or refactoring a service only affects the service itself. 
+- Testability
+  - Individual services are easier to debug and test since their area of influence is limited to the service. 
+- Independence
+  - Services are independent of the platform, since they communicate with other applications through common language. 
+- Scalable
+  - A single service can be run in several instances on different servers at the same time, increasing the scalability. 
+- Quality
+  - The reusability of the services minimizes code redundancies, which improves the quality of the code.  
+   
+**Disadvantages**
+- Performance/overhead
+  - Services-to-service interaction requires validation of the input parameters, which reduces the performance
+- Service Management
+  - Service-to-service messaging growth is high and the management of this can be challenging and requires enough bandwidth for this.  
+- High Cost
+  - Initial investment in implementing SOA are high in terms of development and technology.  
 ![image](https://user-images.githubusercontent.com/35559774/132123873-a5aa3114-2dbf-4366-8a94-e40c919400a1.png)
 
-#### Which are the basic concepts and building blocks of a domain model?
-- The domain model exists within the domain context and includes boundaries, usage within  specific areas of the system, ideas, knowledge and goals. The model also contains rules and patterns that are relevant.
-
-  - Value objects → a value that might have sub-values (time can have the sub-values hour, minute, second)
-  - Entities → objects with an identity (customer object has its own identity)
-  - Aggregate roots → objects that own other objects, i.e. a credit card object doesn't make sense without an account to belong to →  account is the aggregate root, and credit card objects can only be manipulated via methods in the Order object.
-
-- In DDD some of the patterns used are:
-  - Repository →  for persistence (saving and loading data.)
-  - Factory → for object creation.
-  - Service → for creating objects that manipulate the main domain objects without being a part of the domain themselves.
-
-- Core concepts:
-  - Domain → The specific business subject area.
-  - Model → A system of abstractions that describes selected aspects of a domain and can be used to solve problems related to that domain.
-  - Ubiquitous Language → A language structured by capturing the terms of the domain, with help from domain experts, which is used throughout the development.
-  - Context → The setting in which a statement appears that determines its meaning.
-  - Bounded context → A boundary (typically a subsystem) within which a particular model is defined and applicable.  
+#### Which basic principles should the developers of SOA consider? 
+- Standardized Service Contract
+  - Services adhere to a standard service-description.
+- Loose Coupling
+  - The relationship between services is minimized.
+  - Services can be called from anywhere within the network
+- Service Abstraction
+  - Inner logic of a service is hidden from the consumer.
+- Service Reusability
+  - Logic is divided into several services, to ensure reusability of code.
+- Service Autonomy
+  - Services themselves control the logic they contain.
+- Service Statelessness	
+  - Services are stateless to minimize resource use. 
+- Service Discovery
+  - Services can be discovered by a service repository. They contain metadata by which they can be discovered and understood.
+- Service Composability
+  - Services can be used to compose other services.   
 ![image](https://user-images.githubusercontent.com/35559774/132123877-e9de2258-24d3-420c-96f1-cf278d71d0e6.png)
 
-#### How does DDD relate to microservices architecture?
-> *“The term "Microservice Architecture" has sprung up over the last few years to describe a particular way of designing software applications as suites of independently deployable services. While there is no precise definition of this architectural style, there are certain common characteristics around organization around business capability, automated deployment, intelligence in the endpoints, and decentralized control of languages and data. [...]
-Applications built from microservices aim to be as decoupled and as cohesive as possible - they own their own domain logic and act more as filters in the classical Unix sense - receiving a request, applying logic as appropriate and producing a response.”*
+#### There exists a document, known as SOA Manifesto, which defines six values of priority in the work of the developers of SOA. Write those values in your own priority order (these you find most important should be at the top of the list) and explain your arguments.
+> _**Business value** over technical strategy  
+**Strategic goals** over project-specific benefits  
+**Intrinsic interoperability** over custom integration  
+**Shared services** over specific-purpose implementations  
+**Flexibility** over optimization  
+**Evolutionary refinement** over pursuit of initial perfection_   
+  
+[SOA Manifesto](http://www.soa-manifesto.org/)
 
-[Martin Fowler](https://martinfowler.com/articles/microservices.html) 25 March 2014.
+I believe the order in which they are defined in the SOA manifesto is the correct order for two reasons:  
+**1)** I don’t believe that I could know better than the people who invented this architecture, after reading about SOA for a few days.  
+**2)** When looking at the initial priority of the values, I agree with the order. It makes perfect sense to place business value and strategic goals at the top and flexibility and refinement at the bottom when looking at it from a (enterprise) business perspective.
 
-- Domain driven design fits well within a microservice architecture because each microservice will have its own bounded context and have a separate domain model.  
 ![image](https://user-images.githubusercontent.com/35559774/132123882-4960a036-49f5-4f3c-8746-f5d0f25e0337.png)
 
 ### Litterature
-- [martinfowler.com/articles/microservices.html](https://martinfowler.com/articles/microservices.html)
-- [martinfowler.com/bliki/DomainDrivenDesign.html](https://martinfowler.com/bliki/DomainDrivenDesign.html)
-- [confluent.io/blog/microservices-apache-kafka-domain-driven-design/](https://www.confluent.io/blog/microservices-apache-kafka-domain-driven-design/)
-- [simpleprogrammer.com/importance-domain-driven-design/](https://simpleprogrammer.com/importance-domain-driven-design/)
-- [medium.com/microtica/the-concept-of-domain-driven-design-explained](https://medium.com/microtica/the-concept-of-domain-driven-design-explained-3184c0fd7c3f)
-- [medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask](https://medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask-a85e7b74497a)
-- [airbrake.io/blog/software-design/domain-driven-design](https://airbrake.io/blog/software-design/domain-driven-design)
-- [towardsdatascience.com/what-is-domain-driven-design](https://towardsdatascience.com/what-is-domain-driven-design-5ea1e98285e4)
-- [lucidchart.com/blog/domain-driven-design-introduction](https://www.lucidchart.com/blog/domain-driven-design-introduction)
-- [Driven%20Design%20Quickly.pdf](https://matfrs2.github.io/RS2/predavanja/literatura/Avram%20A,%20Marinescu%20F.%20-%20Domain%20Driven%20Design%20Quickly.pdf)
-- [stackoverflow.com/questions/1222392/what-is-domain-driven-design](https://stackoverflow.com/questions/1222392/what-is-domain-driven-design-ddd/1222488#1222488)
+- http://www.soa-manifesto.org/
+- https://www.informit.com/articles/article.aspx?p=1663690
+- https://www.talend.com/resources/service-oriented-architecture/
+- https://www.ibm.com/docs/en/was/9.0.5?topic=architecture-web-services-approach-service-oriented
+- https://docs.oracle.com/cd/E21764_01/doc.1111/e10223/soa_01.htm
+- https://www.educba.com/what-is-soa/
+- https://techspirited.com/advantages-disadvantages-of-service-oriented-architecture-soa
+- https://www.xenonstack.com/insights/service-oriented-architecture
 
 
