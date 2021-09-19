@@ -1,2 +1,2 @@
-## Individual stem Integration Assignments
+## Individual System Integration Assignments
 
