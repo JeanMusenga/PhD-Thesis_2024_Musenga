@@ -1,7 +1,7 @@
 public class ConvertTemperature {
-    private static final int constant = 32;
+    private final int constant = 32;
 
-    public static double convert(double temp, Enum fromTempType) {
+    public double convert(double temp, Enum fromTempType) {
         if (fromTempType.equals(FromTempType.FAHRENHEIT)) {
             if (temp < -459.67) throw new IllegalArgumentException("Temperature cannot be lower than absolute min");
             return (temp - constant) * (5.0 / 9.0);
