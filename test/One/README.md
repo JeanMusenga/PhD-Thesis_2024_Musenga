@@ -51,7 +51,7 @@ code.
   - [Type Enum](https://github.com/Castau/2nd_semester_individual_assignments/blob/main/test/One/src/main/java/FromTempType.java)
 - [Temperature Test Class](https://github.com/Castau/2nd_semester_individual_assignments/blob/main/test/One/src/test/java/TemperatureTest.java)  
   
-![image](https://user-images.githubusercontent.com/35559774/132123870-4d9d914d-a1e4-48c8-af9f-bd879fb7abc4.png)
+
 ##### 2.2 ROMAN NUMERAL KATA
 - [Arabic to Roman Converter Class](https://github.com/Castau/2nd_semester_individual_assignments/blob/main/test/One/src/main/java/ConvertRomanNumber.java)  
 - [Arabic to Roman Test Class](https://github.com/Castau/2nd_semester_individual_assignments/blob/main/test/One/src/test/java/RomanTest.java)   
