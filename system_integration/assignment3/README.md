@@ -26,9 +26,9 @@ A Message Router is a component that takes the place of a filter. The router det
 
 **Decoupling**  
 The decoupling of components in a larger system is often necessary. Decoupling refers to components not being dependent on other components i.e. a change in one does not require a change in others. 
-Message Channels decouples applications from having to know each other’s location. 
-A Message Router decouples applications from having to agree on a common Message Channel. 
-A Message Translator decouples applications by removing the dependency on each other’s data formats.
+- Message Channels decouples applications from having to know each other’s location. 
+- A Message Router decouples applications from having to agree on a common Message Channel. 
+- A Message Translator decouples applications by removing the dependency on each other’s data formats.
 
 **Message Endpoint**  
 For an application to use the Messaging system, a form of interface must be implemented. The Message Endpoint bridges that gap by encapsulating the messaging system from the rest of the application and customizes a general messaging API for a specific application and task, thus enabling the application to send and receive messages.
