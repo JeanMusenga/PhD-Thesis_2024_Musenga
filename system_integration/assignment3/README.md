@@ -3,7 +3,7 @@
 By Camilla Jenny Valerius Staunstrup, 13. october 2021**
 ![image](https://user-images.githubusercontent.com/35559774/132123869-db053cd7-cc77-400d-9597-33fd833683e0.png)
 
-### Objective
+### [Objective](https://datsoftlyngby.github.io/soft2021fall/resources/fbda340e-A5-EIP.pdf)
 - Read the [Chapter 3: Messaging Systems](https://www.enterpriseintegrationpatterns.com/docs/EnterpriseIntegrationPatterns_HohpeWoolf_ch03.pdf), extract at least ten terms, related to System Integration, which you find essential and create a glossary of those terms.  
 
 ### Glossary
