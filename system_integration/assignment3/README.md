@@ -1,6 +1,6 @@
 # System Integration
-#### Assignment 5: EIP Research Task
-#### By Camilla Jenny Valerius Staunstrup, 13. october 2021
+**Assignment 5: EIP Research Task  
+By Camilla Jenny Valerius Staunstrup, 13. october 2021**
 ![image](https://user-images.githubusercontent.com/35559774/132123869-db053cd7-cc77-400d-9597-33fd833683e0.png)
 
 ### Objective
