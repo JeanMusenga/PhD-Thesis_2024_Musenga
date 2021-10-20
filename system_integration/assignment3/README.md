@@ -42,7 +42,9 @@ Since the system throughput is limited by the slowest process in the process cha
 **Point-to-Point Channel**  
 A Point-to-Point Channel ensures that only one component consumes any given message. If the channel has multiple receivers, only one of them can successfully consume a particular message.
 
-______**Below was added 20. october 2021 after the assignment was changed to 12 words instead of the originally ten words**______  
+______
+**Below was added 20. october 2021 _after_ the assignment was changed to 12 words instead of the originally ten words**
+______
   
 **Publish-Subscribe Channelsl**  
 A Publish-Subscribe Channel is a chennel where there's one input channel and multiple output channels, one per subscriber. When an event is published into the channel, the Publish-Subscribe Channel delivers a copy of the message to each of the output channels which consume a message only once.  
