@@ -42,6 +42,14 @@ Since the system throughput is limited by the slowest process in the process cha
 **Point-to-Point Channel**  
 A Point-to-Point Channel ensures that only one component consumes any given message. If the channel has multiple receivers, only one of them can successfully consume a particular message.
 
+______**Below was added 20. october 2021 after the assignment was changed to 12 words instead of the originally ten words**______  
+  
+**Publish-Subscribe Channelsl**  
+A Publish-Subscribe Channel is a chennel where there's one input channel and multiple output channels, one per subscriber. When an event is published into the channel, the Publish-Subscribe Channel delivers a copy of the message to each of the output channels which consume a message only once.  
+  
+**Enterprise Messaging Systems (EMS)**  
+An enterprise messaging system consists of standards that allows organizations to send messages between computer systems. EMS systems ensure a loose coupled architecture that negates the impact changes in the formats of messages could have on subscribers. EMS systems use structured messages protocols.
+
 
 ### Litterature
 - https://www.enterpriseintegrationpatterns.com/docs/EnterpriseIntegrationPatterns_HohpeWoolf_ch03.pdf
