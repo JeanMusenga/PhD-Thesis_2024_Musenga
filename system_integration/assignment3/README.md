@@ -43,7 +43,7 @@ Since the system throughput is limited by the slowest process in the process cha
 A Point-to-Point Channel ensures that only one component consumes any given message. If the channel has multiple receivers, only one of them can successfully consume a particular message.
 
 ______
-**Below was added 20. october 2021 _after_ the assignment was changed to 12 words instead of the originally ten words**
+**Below was added 20. october 2021 _after_ the assignment was changed to 12 words instead of the originally 10 words**
 ______
   
 **Publish-Subscribe Channelsl**  
